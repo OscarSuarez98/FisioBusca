@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario</title>
+    <script
+            src="https://www.flaticon.es/icono-gratis/verificacion-de-antecedentes_6171401?term=busqueda&page=1&position=42&page=1&position=42&related_id=6171401&origin=search"
+            crossorigin="anonymous"></script>
+        <title>FisioBusca </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="./estilos-index.css">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+  <h1> FisioBusca </h1>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+              <img src="./Imagenes/logofisio.png" alt="Logo FisioBusca" width="200" height="75">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+                  <li class="nav-item dropdown">
+                      
+                      
+                  <li class="nav-item"><a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
+                  <li class="nav-item"><a class="nav-link" href="./usuario.html">Usuario</a></li>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="./fisioterapeuta.html">Fisioterapeuta </a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="./productos.html">Productos </a>
+                  </li>
+                  
+              </ul>
+          </div>
+          </ul>
+  </nav>
+    </nav>
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Carrito De Compras</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Artículos</p>
+        </div>
+        <div class="offcanvas-body">
+            <p>Guardados</p>
+        </div>
+    </div>
+</header>
+    <main>
+        <section>
+            <h2>Registrate como usuario</h2>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="Name4" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="Name4" required>
+              </div>
+              <div class="col-md-6">
+                <label for="Apellido4" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="Apellido4" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" required>
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Calle,numero y Colonia" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity" required>
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Estado</label>
+                <select id="inputState" class="form-select" required>
+                  <option selected>Elige...</option>
+                  <option>Puebla</option>
+                 </select>
+              </div>
+              <div class="col-md-6">
+                <label for="inputPhone4" class="form-label">Numero de Telefono</label>
+                <input type="number" class="form-control" placeholder="Celular" id="inputPhone4" required>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Todo está completo
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Registrarme</button>
+              </div>
+            </form>
+            
+            <div>
+                <h5> ¿Eres mayor de 18 años?</h5>
+                <label for=""> SI</label>
+                <input type="radio" name="" id="" required>
+                <label for=""> NO</label>
+                <input type="radio" name="" id="" required>
+            </div>
+        </section>
+        <div>
+            <h4>En que servicio estas interesado</h4>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="cardmasaje">
+                  <img src="./Imagenes/masaje.jpg" class="card-img-top" alt="masaje">
+                  <div class="card-body">
+                    <h5 class="card-title">Masaje </h5>
+                    <p class="card-text">Nuestros teraeutas estan especializados para realizar los mejores masajes terapeuticos </p>
+                    <a href="https://youtu.be/yqdd6CryUEg" class="btn btn-primary">saber mas</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="cardreha">
+                  <img src="./Imagenes/rehabilitacion.jpg" class="card-img-top" alt="rehabilitacion">
+                  <div class="card-body">
+                    <h5 class="card-title">Terapia Fisica</h5>
+                    <p class="card-text">La fisioteraia tiene como clave el ejercicio terapeutico con el fin de rehabilitar y revenir lesiones</p>
+                    <a href="https://youtu.be/Ds8fOawO8u4" class="btn btn-primary">saber mas</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="cardacond">
+                  <img src="./Imagenes/acondicionamiento fisico.jpg" class="card-img-top" alt="acondicionamiento>
+                  <div class="card-body">
+                    <h5 class="card-title">Ejercicio funcional</h5>
+                    <p class="card-text">Atrevete a vivir la experiencia del ejercicio funcional, creando y elevando tus caacidades fisicas</p>
+                    <a href="https://youtu.be/jQre2XBKUIo" class="btn btn-primary">saber mas</a>
+                  </div>
+                </div>
+                
+              </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+      <div class="container-fluid">
+        <div class="row d-flex flex-wrap p-5 py-3 pb-2 justify-content-center align-items-center">
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h4 ms-3 mb-3 text-footer">FisioBusca</p>
+                
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3 text-footer">Servicio Al Cliente</p>
+                <div class="mb-2">
+                    <a class="nav-link" class="text-decoration-none" href="#">Términos Y
+                        Condiciones.</a>
+                </div>
+                <div class="mb-2">
+                    <a class="nav-link" class="text-decoration-none" href="#">Políticas
+                        De Devolución Y Reembolso.</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h4 ms-3 mb-3 text-footer">Síguenos</p>
+              
+                  <img src="/Imagenes/whats.png" alt="logowhats" width="50"
+                  height="50">
+              <h5>2211335532</h5>
+              <img src="/Imagenes/outllok.png" alt="logooutlook" width="70" height="50">
+              <h5>oscarmsm98@outlookcom</h5>
+              
+            </div>
+            <div
+                class="d-flex flex-column flex-sm-row justify-content-between align-items-right py-3 my-3 pb-1 border-top">
+                <p class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto">
+                    <a href="./index.html"><img class="bi me-2" src="./Imagenes/logofisio.png" alt="Logo FisioBusca"
+                            width="200" height="70"></a>
+                </p>
+            </div>
+        </div>
+    </div>
+        
+
+    </footer>
+    
+    <script src="./script/usuarios.js"></script>
+</body>
+</html>
