@@ -1,12 +1,20 @@
 {
-  "name": "ecommerce-de-fisioterapia",
+  "name": "fisiobusca",
   "version": "1.0.0",
   "description": "se desarrollará una pagina web con el fin de ofrecer servicios de fisioterapia, conectando fisioterapeutas con clientes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarSuarez98/FisioBusca.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarSuarez98/FisioBusca/issues"
+  },
+  "homepage": "https://github.com/OscarSuarez98/FisioBusca#readme"
 }

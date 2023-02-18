@@ -1,0 +1,11 @@
+
+@mixin tamaño ($ancho, $alto) {
+  width: $ancho;
+  height: $alto;
+}
+
+@mixin titulos ($tipografia, $posicion, $tamano) {
+  font-family: $tipografia;
+  text-align: $posicion;
+  font-size: $tamano;
+}
